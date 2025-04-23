@@ -1,0 +1,17 @@
+.tags-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+.tag {
+    display: inline-block;
+    background-color: #f1f2f5;
+    color: #272837;
+    font-size: 1.25em;
+    padding: 8px 14px;
+    border-radius: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
