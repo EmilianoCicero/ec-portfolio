@@ -1,5 +1,5 @@
 import Tag from './Tag'
-import "../styles/Content.css"
+import "../styles/content.css"
 import ProjectCard from './ProjectCard' 
 import  lexiconDS from '../images/lexicon-design-system.webp'
 
