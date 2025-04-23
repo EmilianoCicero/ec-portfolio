@@ -1,6 +1,6 @@
 import Header from '../components/Header'
 import Content from '../components/Content'
-import '../styles/layout.css'
+import '../styles/Layout.css'
 
 export default function Home() {
     return (

@@ -1,4 +1,4 @@
-import '../styles/tag.css';
+import '../styles/Tag.css';
 
 export default function Tag({ label }) {
     return <span className="tag">{label}</span>;

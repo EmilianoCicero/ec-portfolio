@@ -1,4 +1,4 @@
-import '../styles/header.css'
+import '../styles/Header.css'
 import avatar from '../images/ec-avatar.png'
 
 export default function Header() {

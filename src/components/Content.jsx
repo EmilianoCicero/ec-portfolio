@@ -1,7 +1,8 @@
 import Tag from './Tag'
-import "../styles/content.css"
+import "../styles/Content.css"
 import ProjectCard from './ProjectCard' 
-import  lexiconDS from '../images/lexicon-design-system.webp'
+import ProjectsWrapper from "./ProjectsWrapper"
+import lexiconDS from '../images/lexicon-design-system.webp'
 
 const skills = [
     "0 to 1 Designer", "Design Systems", "Data Visualization", "Interaction Design",
@@ -27,43 +28,7 @@ export default function Content() {
         </section>
         <section>
           <h3>Projects</h3>
-          <div className="projects-wrapper">
-            <ProjectCard
-            image={lexiconDS}
-            title="Lexicon . Design System"
-            description="Increased teams' efficiency and productivity through consistent UI components."
-            buttonText="View Project"
-            onClick={() => console.log("Navigate to project detail")}
-            />
-            <ProjectCard
-            image={lexiconDS}
-            title="Lexicon . Design System"
-            description="Increased teams' efficiency and productivity through consistent UI components."
-            buttonText="View Project"
-            onClick={() => console.log("Navigate to project detail")}
-            />
-            <ProjectCard
-            image={lexiconDS}
-            title="Lexicon . Design System"
-            description="Increased teams' efficiency and productivity through consistent UI components."
-            buttonText="View Project"
-            onClick={() => console.log("Navigate to project detail")}
-            />
-            <ProjectCard
-            image={lexiconDS}
-            title="Lexicon . Design System"
-            description="Increased teams' efficiency and productivity through consistent UI components."
-            buttonText="View Project"
-            onClick={() => console.log("Navigate to project detail")}
-            />
-            <ProjectCard
-            image={lexiconDS}
-            title="Lexicon . Design System"
-            description="Increased teams' efficiency and productivity through consistent UI components."
-            buttonText="View Project"
-            onClick={() => console.log("Navigate to project detail")}
-            />
-          </div>
+          <ProjectsWrapper />
         </section>
         <section>
           <h3>About</h3>

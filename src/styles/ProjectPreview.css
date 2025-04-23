@@ -1,0 +1,23 @@
+.project-preview {
+    position: fixed;
+    top: 120px; /* below header */
+    left: 0;
+    width: 320px;
+    height: auto;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .project-preview.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .project-preview img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+  }

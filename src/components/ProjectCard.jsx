@@ -1,16 +1,16 @@
-import "../styles/projectcard.css";
+import "../styles/ProjectCard.css";
+import { ArrowRight } from "lucide-react"; // or use your icon
 
-export default function ProjectCard({ image, title, description, buttonText, onClick }) {
+export default function ProjectCard({ title, description, onHover, onLeave }) {
   return (
-    <div className="project-card">
-      <img src={image} alt={title} className="project-card__image" />
-      <div className="project-card__content">
-        <h3 className="project-card__title">{title}</h3>
-        <p className="project-card__description">{description}</p>
-        <button className="project-card__button" onClick={onClick}>
-          {buttonText}
-        </button>
-      </div>
+    <div
+      className="project-card"
+      onMouseEnter={onHover}
+      onMouseLeave={onLeave}
+    >
+      <h2>{title}</h2>
+      <p>{description}</p>
+      <ArrowRight size={18} />
     </div>
   );
 }
