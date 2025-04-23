@@ -1,4 +1,4 @@
-import "../styles/ProjectCard.css";
+import "../styles/projectcard.css";
 
 export default function ProjectCard({ image, title, description, buttonText, onClick }) {
   return (
