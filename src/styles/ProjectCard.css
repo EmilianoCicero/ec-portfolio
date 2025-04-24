@@ -8,8 +8,8 @@
     background: #f1f2f5;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
-    transition: background-color 0.3s ease, padding 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 16px rgba(3, 87, 246, 0,1);
+    transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
     padding: 20px 56px 20px 56px;
     cursor: pointer;
   }
@@ -17,6 +17,7 @@
   .project-card:hover {
     background-color: #0357F6;
     color: white;
+    box-shadow: 0 4px 40px rgba(3, 87, 246, 0.6);
     transform: translateY(-4px) scale(1.02);
   }
   
@@ -55,6 +56,9 @@
     margin-bottom: 16px;
   }
 
+  .project-card p {
+    transition: color 0.3s ease-in-out;
+  }
   .project-card:hover p {
     color: white;
   }
@@ -64,7 +68,7 @@
     color: #0057ff;
     margin-top: 8px;
     display: inline-block;
-    transition: transform 0.2s ease;
+    transition: transform 0.3s ease-in-out;
   }
   
   .project-card:hover .project-card__icon {

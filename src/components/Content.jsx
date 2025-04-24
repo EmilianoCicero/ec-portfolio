@@ -2,7 +2,6 @@ import Tag from './Tag'
 import "../styles/Content.css"
 import ProjectCard from './ProjectCard' 
 import ProjectsWrapper from "./ProjectsWrapper"
-import lexiconDS from '../images/lexicon-design-system.webp'
 
 const skills = [
     "0 to 1 Designer", "Design Systems", "Data Visualization", "Interaction Design",
