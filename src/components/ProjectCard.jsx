@@ -8,9 +8,11 @@ export default function ProjectCard({ title, description, onHover, onLeave }) {
       onMouseEnter={onHover}
       onMouseLeave={onLeave}
     >
-      <h2>{title}</h2>
-      <p>{description}</p>
-      <ArrowRight size={18} />
+      <div className="project-content"> 
+        <h4>{title}</h4>
+        <p>{description}</p>
+      </div>
+      <ArrowRight size={32} />
     </div>
   );
 }

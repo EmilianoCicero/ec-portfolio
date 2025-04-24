@@ -1,8 +1,8 @@
 .project-preview {
     position: fixed;
-    top: 120px; /* below header */
+    bottom: 0; /* below header */
     left: 0;
-    width: 320px;
+    width: 400px;
     height: auto;
     opacity: 0;
     transform: translateY(40px);

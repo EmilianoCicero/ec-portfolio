@@ -1,4 +1,8 @@
 .project-card {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
     position: relative;
     width: 100%;
     background: #f1f2f5;
@@ -6,14 +10,14 @@
     overflow: hidden;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
     transition: background-color 0.3s ease, padding 0.3s ease, transform 0.3s ease;
-    padding: 24px;
+    padding: 20px 56px 20px 56px;
     cursor: pointer;
   }
   
   .project-card:hover {
-    background-color: #e3e5e9;
+    background-color: #0357F6;
+    color: white;
     transform: translateY(-4px) scale(1.02);
-    padding: 32px;
   }
   
   /* Hide the image by default */
@@ -21,8 +25,8 @@
     position: fixed;
     bottom: 40px;
     left: 0;
-    width: 320px;
-    max-height: 400px;
+    width: 800px;
+    max-height: 480px;
     opacity: 0;
     pointer-events: none;
     transform: translateY(20px);
@@ -49,6 +53,10 @@
     color: #555;
     line-height: 1.6;
     margin-bottom: 16px;
+  }
+
+  .project-card:hover p {
+    color: white;
   }
   
   .project-card__icon {
