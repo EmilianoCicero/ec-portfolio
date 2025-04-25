@@ -9,7 +9,7 @@
 .divider {
     width: 88px;
     height: 8px;
-    background-color: var(--color-primary);
+    background-color: var(--color-bg-primary);
     margin: 0 0 24px 0;
     border-radius: 4px;
 }
