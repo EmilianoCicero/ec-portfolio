@@ -21,6 +21,9 @@
     transform: translateY(-4px) scale(1.02);
   }
 
+  .project-content p {
+    margin-top: -24px; 
+  }
 
   .project-card p {
     transition: color 0.3s ease-in-out;
