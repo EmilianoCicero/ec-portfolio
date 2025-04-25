@@ -7,7 +7,7 @@
 
 .tag {
     display: inline-block;
-    background-color: var(--color-bg);
+    background-color: var(--color-bg-secondary);
     color: var(--color-text-secondary);
     font-size: 1.25em;
     padding: 8px 14px;

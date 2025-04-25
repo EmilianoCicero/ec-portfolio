@@ -8,11 +8,12 @@
     --color-white: #fff;
 
     /* Semantic Tokens */
-    --color-primary: var(--color-blue);
     --color-text-primary: var(--color-dark);
     --color-text-primary-inverse: var(--color-white);
     --color-text-secondary: var(--color-grey500);
-    --color-bg: var(--color-grey100);   
+    --color-bg-primary: var(--color-blue);
+    --color-bg-secondary: var(--color-grey100);   
+    --color-bg-tertiary: var(--color-white);
 
     /* TEXT SIZES */
     /* Primitive Tokens */
@@ -24,10 +25,10 @@
     --size-text-xxxl: 3em;
 
     /* Semantic Tokens */
-    --size-text-h1: var(--text-size-xxxl);
-    --size-text-h2: var(--text-size-xxl);
-    --size-text-h3: var(--text-size-xl);
-    --size-text-h4: var(--text-size-lg);
-    --size-text-p: var(--text-size-lg);
-    --size-text-button: var(--text-size-md);
+    --size-text-h1: var(--size-text-xxxl);
+    --size-text-h2: var(--size-text-xxl);
+    --size-text-h3: var(--size-text-xl);
+    --size-text-h4: var(--size-text-lg);
+    --size-text-p: var(--size-text-lg);
+    --size-text-button: var(--size-text-md);
 }

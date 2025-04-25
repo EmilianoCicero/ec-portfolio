@@ -5,7 +5,7 @@
     justify-content: space-between;
     position: relative;
     width: 100%;
-    background: var(--color-background);
+    background-color: var(--color-bg-secondary);
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 16px rgba(3, 87, 246, 0,1);
@@ -15,7 +15,7 @@
   }
   
   .project-card:hover {
-    background-color: var(--color-primary);
+    background-color: var(--color-bg-primary);
     color: var(--color-text-primary-inverse);
     box-shadow: 0 4px 40px rgba(3, 87, 246, 0.6);
     transform: translateY(-4px) scale(1.02);

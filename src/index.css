@@ -43,18 +43,18 @@ h2 {
   font-weight: 400;
 }
 h3 {
-  font-size: 2em;
+  font-size: var(--size-text-h3);
   line-height: 1.25;
   font-weight: 700;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: var(--size-text-h4);
   line-height: 1.25;
   font-weight: 700;
 }
 p {
-  font-size: 1.5em;
+  font-size: var(--size-text-p);
   line-height: 1.5;
   font-weight: 400;
   color: #6F6F6F;
@@ -66,12 +66,12 @@ button {
   font-size: 1em;
   font-weight: 400;
   font-family: inherit;
-  background-color: #0357F6;
+  background-color: var(--color-bg-primary);
   color: white;
   cursor: pointer;
 }
 button:hover {
-  color: #0357F6;
+  color: var(--color-text-primary-inverse);
 }
 button:focus,
 button:focus-visible {
@@ -80,13 +80,13 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-tertiary);
   }
   a:hover {
-    color: #747bff;
+    color: var(--color-text-primary);
   }
   button {
-    background-color: #f9f9f9;
+    background-color: var(--color-bg-secondary);
   }
 }
