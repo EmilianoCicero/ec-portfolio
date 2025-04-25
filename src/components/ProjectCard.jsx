@@ -1,5 +1,5 @@
 import "../styles/ProjectCard.css";
-import { ArrowRight } from "lucide-react"; // or use your icon
+import { IconArrowRight } from "@tabler/icons-react"; // or use your icon
 
 export default function ProjectCard({ title, description, onHover, onLeave }) {
   return (
@@ -12,7 +12,7 @@ export default function ProjectCard({ title, description, onHover, onLeave }) {
         <h4>{title}</h4>
         <p>{description}</p>
       </div>
-      <ArrowRight size={32} />
+      <IconArrowRight size={32} />
     </div>
   );
 }

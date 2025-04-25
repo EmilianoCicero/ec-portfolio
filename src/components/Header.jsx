@@ -1,5 +1,6 @@
 import '../styles/Header.css'
 import avatar from '../images/ec-avatar.png'
+import SocialICons from './SocialIcons'
 
 export default function Header() {
     return (
@@ -8,6 +9,9 @@ export default function Header() {
         <h1>Hola,<br/>I'm Emi</h1>
         <div className="divider"></div>
         <h2>Senior Product Designer & Design System Expert</h2>
+        <div className="SocialIcons-Wrapper">
+          <SocialICons />
+        </div>
       </aside>
     )
   }
