@@ -48,12 +48,13 @@ export default function ProjectsWrapper() {
     <div className="projects-wrapper">
         {projects.map(project => (
           <ProjectCard
-            key={project.id}
-            title={project.title}
-            description={project.description}
-            onHover={() => setHoveredProject(project)}
-            onLeave={() => setHoveredProject(null)}
-          />
+          key={project.id}
+          title={project.title}
+          description={project.description}
+          image={project.image} 
+          onHover={() => setHoveredProject(project)}
+          onLeave={() => setHoveredProject(null)}
+        />
         ))}
       <ProjectPreview project={hoveredProject} />
     </div>
