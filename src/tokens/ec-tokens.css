@@ -1,0 +1,11 @@
+:root {
+    --color-blue: #0357F6;
+    --color-dark: #272837;  
+    --color-grey500: #6F6F6F;
+    --color-grey100: #f1f2f5;
+
+    --color-primary: var(--color-blue);
+    --color-text-primary: var(--color-dark);
+    --color-text-secondary: var(--color-grey500);
+    --color-background: var(--color-grey100);
+}
