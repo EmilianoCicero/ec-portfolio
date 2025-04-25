@@ -6,8 +6,14 @@
     height: 48px;
     border-radius: 50%;
     background-color: #f1f2f5;
+    color: #6F6F6F;
     cursor: pointer;
     padding: 0;
+    border: none;
+  }
+.social-button:hover {
+    background-color: #0357F6;
+    color: white;
   }
 
 .SocialICons-Wrapper {
@@ -15,9 +21,4 @@ display: flex;
 justify-content: start;
 align-items: center;
 gap: 16px;
-}
-
-.social-button button {
-    background-color: #f1f2f5;
-    color: #272837;
 }
