@@ -5,15 +5,15 @@
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background-color: #f1f2f5;
-    color: #6F6F6F;
+    background-color: var(--color-bg);
+    color: var(--color-text-secondary);
     cursor: pointer;
     padding: 0;
     border: none;
   }
 .social-button:hover {
-    background-color: #0357F6;
-    color: white;
+    background-color: var(--color-primary);
+    color: var(--color-text-primary-inverse);
   }
 
 .SocialICons-Wrapper {
